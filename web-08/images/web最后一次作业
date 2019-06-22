@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" >
+    <style type="text/css">
+    *{
+        	padding: 0;
+        	margin: 0;
+        }
+        a{
+        	text-decoration: none;
+        }
+        li{
+        	list-style: none;
+        }
+        .a{
+        	height: 40px;
+        	width: 1200px;
+        	margin: 0 auto;
+        	line-height: 40px;
+        }
+        .a li{
+          	float: right;
+          }
+        .a1{
+        	font-size: 12.93px;
+			float: right;
+			margin-right:40px;
+        }
+        .a2{
+        	font-size: 14.78px;
+        	font-weight: bold;
+			float: right;
+			margin-right:42px;
+        }
+        .a3{
+        	font-size:12.93px ;
+        	float: right;
+        	/* margin-right:52px; */
+        }
+
+	</style>
+</head>
+<body>
+	<div class="a">
+		<ul class="a3">
+			<li><img src="images\wb.png"></li>
+			<li><img src="images\wx.png"></li>
+			<li style="margin-right:32px">帮助中心&nbsp;&nbsp;</li><li>我的买猜&nbsp;&nbsp;</li> <li> 我的订单&nbsp;&nbsp; </li>
+			
+			
+		</ul>
+		<ul class="a2">
+			<li><a href="#">请登录&nbsp;&nbsp;&nbsp;</a></li>
+			<li><a herf="#">免费注册</a></li>
+
+		</ul>
+		<ul class="a1">
+			<li>嘿，欢迎来买猜商城！</li>
+			
+		</ul>
+	</div>
+</body>
+</html>
